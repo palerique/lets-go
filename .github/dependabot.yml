@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: 'daily'
-    target-branch: 'main'
+      interval: daily
+    target-branch: main
     labels:
       - dependencies
       - github-actions
